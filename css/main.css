@@ -1,0 +1,165 @@
+body{
+    /*mArgen predeterminado*/
+    margin: 0;
+    /*margen pa' dentro*/
+    padding: 0;
+    /*tamaño de texto*/
+    font-size: 13px;
+    /*fuente del texto*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*navegacion*/
+header{
+    width: 100%;
+    height: 55%;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    /*Eliminar viñetas*/
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Altura*/
+    height: auto;
+}
+
+nav .nav-right-section a{
+    /*color de texto*/
+    color: rgb(21, 21, 21);
+    /*linea debajo de*/
+    text-decoration: none;
+    /*margen derecho*/
+    margin-right: 25px;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://images-ext-2.discordapp.net/external/VjU35Vt2AEwJj-IvRzhXcYHsfylovhKPRl6EScgvkv0/https/img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no- repeat;
+}
+
+nav .nav-right-section img{
+    /*Margin left - margen a la izquierda*/
+    margin-left: 20px;
+    /*Redondear la imageb*/
+    border-radius: 100px;
+    /*WIDH -ancho*/
+    width: 35px;
+}
+
+/*MAIN*/
+main{
+    text-align:center ;
+    margin-top: 160px;
+}
+/*seccion logo*/
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+/*logo google*/
+main .main-logo img{
+    height: 100px;
+}
+/*seccion input*/
+main .main-input{
+    /*width-ancho*/
+    width: 530px;
+    /*margenes y centrado*/
+    margin: 0 auto;
+    /*separar input de botones*/
+    margin-bottom: 40px;
+
+}
+/*cajita gris redondeada buscador*/
+main .main-input-container{
+    /*ancho de linea estilo y color*/
+    border: 1px solid #dfe1e5;
+    /*bordes redondeados*/
+    border-radius: 30px;
+    width: 530px;
+    /*mis componentes sean flexibles*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    height: 50px;
+    width: 500px;
+    /*quitar borde negro*/
+    border:none;
+    /*quitar borde azuk al hacer click*/
+    outline: none;
+}
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    /*centrar imagen*/
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    /*icono contenido*/
+    background-size: contain;
+    padding-left: 6%;
+    /*que no se repita la imagen*/
+    background-repeat: no-repeat   ;
+}
+main .main-input .micro-icon{
+    background-image: url(https://images-ext-1.discordapp.net/external/NnECQKgC5FBbzbnk6AnIUt6YJjLnszFbxwtZBAnhkno/https/upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png?width=258&height=369);
+    background-position: center;
+    width: 17px;
+    height: 17px;
+    background-size: contain;
+    padding-left: 1%;
+    background-repeat: no-repeat;
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-position: center;
+    width: 17px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 7%;
+
+}
+main .main-buttons{
+   width: 550px;
+   /* Vertical / Horizontal*/
+    margin: 0 auto;
+   
+}
+main .main-buttons div{
+    display: inline-block;
+
+}
+main .main-buttons button{
+    border: 0;
+    height: 40px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    margin-right: 15px;
+    padding: 0 15px;
+}
+/*nos permite agregarle diseño al poner cursor sobre elemento*/
+main .main-input-container:hover{
+    box-shadow: 0 0 5px #20212447;
+}
+main .main-buttons button:hover{
+    color: #202124;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px #dadce0 (0, 0, 0, 1);
+}
+
+
